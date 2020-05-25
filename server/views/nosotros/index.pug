@@ -1,0 +1,27 @@
+extends ../layout/index
+
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="Imagen sobre nosotros" class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Mauris nisl ex, ultrices sit amet dignissim vitae, varius at libero. Ut varius massa urna, sit amet bibendum elit euismod eget. Fusce odio neque, condimentum eget est eget, fringilla molestie nibh. Mauris eleifend, risus ornare viverra tristique, nisi tellus porttitor velit, at posuere ipsum neque a est.
+                p  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum nisl quis ante cursus, et egestas tellus pharetra. Nam vel cursus nisl, tempus imperdiet nibh. Nam in dictum lacus. Maecenas ultricies, lacus non consectetur tincidunt, justo urna vulputate risus, vel ultricies nisl ligula et mi.
+                p Praesent ornare sapien sed libero vulputate, vitae vehicula purus auctor. Aliquam erat volutpat. Aenean eu leo a ex cursus viverra. Etiam efficitur sollicitudin augue iaculis interdum.
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Nulla maximus, ex ac lobortis mattis, tortor purus efficitur lacus, ut rhoncus eros neque a libero.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p Nulla maximus, ex ac lobortis mattis, tortor purus efficitur lacus, ut rhoncus eros neque a libero.
+                .col-md-4
+                    img(src="img/icono_precio.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Precios
+                    p Nulla maximus, ex ac lobortis mattis, tortor purus efficitur lacus, ut rhoncus eros neque a libero.
